@@ -1,0 +1,23 @@
+/* Головний колір #F5F5F5 */
+/* Колір фону хедера #ffffff */
+/* Колір фону футера #2F303A */
+/* Основний колір тексту #212121 */
+/* Вторинникй колір тексту #757575 */
+/* Колір акцент #2196F3 */
+
+
+:root{
+    --backgroud-color: #F5F5F5;
+    --header-bg-color: #ffffff;
+    --footer-bg-color: #2F303A;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --color-accent: #2196F3;
+}
+
+
+body{
+    background-color: var(--backgroud-color);
+    color: var(--primary-text-color);
+}
+
