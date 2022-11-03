@@ -20,10 +20,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* background header */
-.nav {
-  background-color: var(--header-bg-color);
-}
 
 /* text color secondary */
 p {
@@ -102,7 +98,3 @@ h4 {
   letter-spacing: 0.03em;
 }
 
-/* background footer */
-.contact {
-  background-color: var(--footer-bg-color);
-}
