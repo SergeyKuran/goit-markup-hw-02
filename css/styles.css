@@ -84,7 +84,6 @@ h4 {
   color: var(--color-accent);
 }
 
-
 /* site buttons*/
 .button-links .button:focus {
   font-size: 14px;
@@ -103,11 +102,12 @@ h4 {
 }
 
 /* footer adress */
-.footer-adress{
+.footer-adress {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-color: var(--header-bg-color);}
+  color: var(--header-bg-color);
+}
 
 /* site contact email and tel*/
 .site-contact .link,
