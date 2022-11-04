@@ -56,7 +56,7 @@ h4 {
 /* size text header */
 .size-txt-header {
   color: var(--secondary-text-color);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -67,17 +67,23 @@ h4 {
 }
 
 .nav-stydio,
-.nav-contact {
+.nav-contact,
+.nav-portfolio {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
   color: var(--primary-text-color);
 }
 
 /* header links */
-.nav-header .site-nav:hover,
-.nav-header .site-nav:focus {
+.nav-header .nav-portfolio:hover,
+.nav-header .nav-portfolio:focus {
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.17;
   color: var(--color-accent);
 }
+
 
 /* site buttons*/
 .button-links .button:focus {
@@ -96,14 +102,22 @@ h4 {
   font-weight: 500;
 }
 
+/* footer adress */
+.footer-adress{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+color: var(--header-bg-color);}
+
 /* site contact email and tel*/
 .site-contact .link,
-.nav-footer :active {
+.nav-footer .email :active {
   color: var(--color-accent);
 }
 
 /* size text on footer */
-.nav-footer .link {
+.nav-footer .email,
+.nav-footer .tel {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
