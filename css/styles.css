@@ -12,6 +12,7 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --color-accent: #2196f3;
+  --logo: #000000;
 }
 
 body {
@@ -20,106 +21,181 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* text color secondary */
-p {
-  font-size: 14px;
-  color: var(--secondary-text-color);
-  line-height: 1.87;
+/* logo */
+.logo {
+  font-family: Raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+/* logo "Studio" olor */
+.logo-studio {
+  color: var(--logo);
+}
+
+/* Hero title */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--header-bg-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+
   letter-spacing: 0.03em;
 }
 
-/* site title section */
-h1,
-h2,
-h3,
-h4 {
+/* subtitle Studio page */
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.subtitle-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* Subject Наші переваги */
+.subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+/* subject item */
+.subject-item {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+/* size text header nav */
+.nav-stydio,
+.nav-portfolio,
+.nav-contact,
+.tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.email {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+/* current page Portfolio */
+.nav-up .current {
+  color: var(--color-accent);
+}
+
+/* current page Studio */
+.nav-up .current {
+  color: var(--color-accent);
+}
+
+/* tel nav header */
+.tel {
+  color: var(--secondary-text-color);
+}
+
+/* Фокус і ховер посилань */
+.nav-down > p:hover, .nav-down > p:focus,
+.list .link:hover, .list .link:focus,
+.link:hover, .link:focus {
+  color: var(--color-accent);
+}
+
+/* Portfolio */
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+}
+
+/* Studio */
+.button-studio {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--header-bg-color);
+}
+
+/* buttons */
+.one,
+.button-studio,
+.button:hover,
+.button:focus {
+  color: var(--header-bg-color);
+  background-color: var(--color-accent);
+}
+
+/* delete points all site */
+.list {
+  list-style: none;
+}
+
+.title-portfolio {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-/* logo */
-.logo {
-  font-size: 26px;
-  font-weight: 700;
-  font-family: Raleway, sans-serif;
-  color: var(--primary-text-color);
-  line-height: 1.17;
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
-/* logo-studio color */
-.logo-studio {
-  color: var(--color-accent);
-}
-
-/* size text header */
-.size-txt-header {
-  color: var(--secondary-text-color);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-/* tel header */
-.size-txt-header .tel {
-  color: var(--secondary-text-color);
-}
-
-.nav-stydio,
-.nav-contact,
-.nav-portfolio {
-  font-size: 14px;
-  line-height: 1.17;
-  font-weight: 500;
-  color: var(--primary-text-color);
-}
-
-/* header links */
-.nav-header .nav-portfolio:hover,
-.nav-header .nav-portfolio:focus {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
-  color: var(--color-accent);
-}
-
-/* site buttons*/
-.button-links .button:focus {
-  font-size: 14px;
-  color: var(--color-accent);
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-[href="./portfolio.html"] {
-  color: var(--color-accent);
-}
-
-[type="button"] {
-  font-family: Roboto, sans-serif;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-/* footer adress */
-.footer-adress {
-  font-size: 14px;
+/* Footer */
+.nav-down {
+  font-style: normal;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.street-name {
   color: var(--header-bg-color);
 }
 
-/* site contact email and tel*/
-.site-contact .link,
-.nav-footer .email :active {
+.numder-mail {
   color: var(--color-accent);
 }
 
-/* size text on footer */
-.nav-footer .email,
-.nav-footer .tel {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.number-mail .link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
 }
